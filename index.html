@@ -12,6 +12,15 @@
   </head>
   <body>
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=115488651832470";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <section class="hero">
       <div class="intro">
         <h1>Pecado da Gula</h1>
@@ -32,33 +41,9 @@
       </div>
     </section>
     
-    <section id="newsflash" class="container">
-      <div class="content">
-        <article class="one-column">
-          <h3>Make music with us this Valentines' Day</h3>
-          <h4>3 course meal and live music for R295 per head</h4>
-          <p>We are celebrating the day for love on Sunday the 14th at lunchtime
-            with a gourmet picnic, complete with chocolate dipped strawberries and a
-            red rose. (Your choice of alcoholic or non-alcoholic)</p>
-          <p>Bring a blanket and enjoy a picnic on our beautiful lawn (tables will
-            be set if you prefer).</p>
-          <p>Live music and love songs are also on the menu, which includes:-</p>
-          <p>Smoked Trout pate, olive tapenade, a selection of fine cheeses, salami,
-            smoked ham, carpaccio and fresh loaves, fruit and salads, sorbet or
-            ice-cream for the finale.</p>
-          <p>Cost: R350 per head</p>
-        </article>
-      </div>
-    </section>
-    
-    <figure class="container">
-      <img style="width: 100%" src="assets/img/pecado-da-gula-outside-seating.jpg" />
-    </figure>
-    
     <section id="about" class="container">
       <div class="content">
         <h3>About Pecado da Gula</h3>
-        <img src="assets/img/pecado-da-gula-front-entrance-bar.jpg" />
         <p>
           Pecado Da Gula is both a well known destination eatery and well kept secret
           amongst lovers of fine food and lovely venues. Set in rolling gardens under
@@ -78,8 +63,21 @@
           Please join us for a splendid repast, in a time honoured and graceful tradition.
           We look forward to welcoming you.
         </p>
+        <div class="fb-page" data-href="https://www.facebook.com/pecadodg/"
+          data-tabs="timeline" data-width="500" data-small-header="true"
+          data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/pecadodg/">
+                <a href="https://www.facebook.com/pecadodg/">Pecado Da Gula Restaurant</a>
+              </blockquote>
+            </div>
+        </div>
       </div>
     </section>
+    
+    <figure class="container">
+      <img style="width: 100%" src="assets/img/pecado-da-gula-outside-seating.jpg" />
+    </figure>
     
     <section id="location" class="container">
       <div class="content">
